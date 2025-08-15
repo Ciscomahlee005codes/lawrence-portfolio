@@ -1,0 +1,189 @@
+.hero {
+  position: relative;
+  height: 70vh;
+  background-color: rgb(75, 72, 72);
+  display: flex;
+  align-items: center;       /* Vertical center */
+  justify-content: center;   /* Horizontal center */
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;               /* Full width overlay */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 100%;              /* Make it stretch so flex works */
+  z-index: 2;                /* Above overlay */
+}
+
+.hero-content {
+  text-align: left;          /* Keep text left-aligned */
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.job {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.job h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 16px;
+  max-width: 400px;         
+}
+
+.mojo-img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+.socials{
+  color: rgb(159, 160, 161);
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Responsive Design  */
+@media (max-width: 768px) {
+  .hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;         
+  z-index: 2;  
+  margin-top: 100px;             
+}
+.socials{
+  color: rgb(159, 160, 161);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+}
+.mojo-img {
+  width: 170px;
+  border-radius: 8px;
+}
+}
+@media (max-width: 430px) {
+  .hero {
+  position: relative;
+  height: 80vh;
+  background-color: rgb(75, 72, 72);
+  display: flex;
+  align-items: center;       /* Vertical center */
+  justify-content: center;   /* Horizontal center */
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;               /* Full width overlay */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+  .mojo-img {
+  width: 130px;
+  border-radius: 8px;
+}
+.hero-content h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+.job{
+  width: 85%;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.job h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 13px;
+  text-align: center;    
+}
+}
+@media (max-width: 390px) {
+    .hero {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(75, 72, 72);
+  display: flex;
+  align-items: center;       /* Vertical center */
+  justify-content: center;   
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  overflow: hidden;
+}
+}
+@media (max-width: 320px) {
+  body{
+    overflow-x: hidden;
+  }
+  .mojo-img {
+  width: 70px;
+  border-radius: 8px;
+}
+.hero-content h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.job{
+  width: 85%;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.job h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 13px;
+  text-align: center;    
+}
+}

@@ -1,0 +1,94 @@
+.edu-exp {
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.underline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background: royalblue;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: rgb(2, 2, 2);
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.edu-exp-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.edu-section h3,
+.exp-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: rgb(54, 54, 54);
+}
+
+.edu-card,
+.exp-card {
+  background: #fff;
+  padding: 20px;
+  border-left: 4px solid rgb(73, 73, 75);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover,
+.exp-card:hover {
+  transform: translateY(-5px);
+}
+
+.year {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: rgb(6, 139, 201);
+}
+
+h4 {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .edu-exp-container {
+    grid-template-columns: 1fr;
+  }
+}
