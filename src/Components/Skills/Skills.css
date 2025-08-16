@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 .skills {
   padding: 60px 20px;
   background-color: #fff;
-  font-family: "Segoe UI", sans-serif;
   text-align: center;
+   font-family: 'Montserrat', sans-serif;
 }
 
 .skills-header {
@@ -11,8 +12,9 @@
 
 .skills-title {
   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #373738;
+  color: #0c0c0c;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -60,12 +62,14 @@
 
 .skill-card .icon {
   font-size: 30px;
-  color: rgb(75, 72, 72);
+  color: #328;
   margin-bottom: 10px;
 }
 
 .skill-card h4 {
   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 300;
   margin-bottom: 15px;
 }
 
@@ -78,7 +82,7 @@
 }
 
 .progress {
-  background: rgb(32, 32, 32);
+  background: rgb(22, 7, 99);
   height: 100%;
   display: flex;
   align-items: center;

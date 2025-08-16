@@ -1,6 +1,5 @@
 import React from "react";
-import { ReactTyped } from "react-typed"; // ✅ Correct import
-import Amobi from "../../assets/Amobi.jpg";
+import { ReactTyped } from "react-typed"; 
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,14 +10,11 @@ const Hero = () => {
   return (
     <section className="hero" id="home" data-aos="fade-down">
       <div className="hero-container">
-        {/* Image */}
-        <div className="hero-img">
-          <img className="mojo-img" src={Amobi} alt="Amobi Lawrence Ajaegbu" />
-        </div>
+        
 
         {/* Content */}
         <div className="hero-content">
-          <h2>Hello, My name is Amaobi Lawrence Ajaegbu</h2>
+          <h2 style={{color: "gold"}}><span style={{color: "goldenrod"}}>Hello</span>, My name is Lawrence Amaobi Ajaegbu</h2>
 
           {/* Typed Animation */}
           <div className="job">
@@ -47,16 +43,16 @@ const Hero = () => {
           {/* Social Icons */}
           <div className="socials">
             <a href="https://wa.link/u4uvt6" target="_blank" rel="noopener noreferrer">
-              <IoLogoWhatsapp style={{color: "rgb(159, 160, 161)"}}/>
+              <IoLogoWhatsapp style={{color: "rgba(219, 216, 4, 1)"}}/>
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF style={{color: "rgb(159, 160, 161)"}}/>
+              <FaFacebookF style={{color: "rgba(219, 216, 4, 1)"}}/>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin style={{color: "rgb(159, 160, 161)"}}/>
+              <FaLinkedin style={{color: "rgba(219, 216, 4, 1)"}}/>
             </a>
             <a href="mailto:mobilitylawrence@gmail.com">
-              <MdEmail style={{color: "rgb(159, 160, 161)"}}/>
+              <MdEmail style={{color: "rgba(219, 216, 4, 1)"}}/>
             </a>
           </div>
         </div>

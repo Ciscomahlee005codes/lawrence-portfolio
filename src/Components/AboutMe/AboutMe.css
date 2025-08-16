@@ -1,55 +1,46 @@
 .about-me {
   padding: 60px 20px;
-  text-align: center;
   background-color: #f9f9f9;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-header {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.about-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: #414244;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.underline {
+.about-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-.underline .line {
-  width: 40px;
-  height: 2px;
-  background-color: #414244;
-}
-
-.underline .dot {
-  width: 8px;
-  height: 8px;
-  background-color: #020202;
+.about-img img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
   border-radius: 50%;
+  border: 3px gold solid;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
 }
 
 .about-content {
-  max-width: 700px;
-  margin: 0 auto;
+  flex: 1;
+  min-width: 300px;
 }
 
 .about-content p {
   font-size: 16px;
-  line-height: 1.6;
-  color: #333;
+  line-height: 1.8;
+  color: #0c0c0c;
   margin-bottom: 30px;
 }
 
+/* Buttons */
 .about-buttons {
   display: flex;
   justify-content: center;
@@ -66,21 +57,33 @@
 }
 
 .btn.primary {
-  background-color: #323233;
+  background-color: rgb(20, 2, 109);
   color: white;
 }
 
 .btn.primary:hover {
-  background-color: #3d3e3f;
+  background-color: rgb(29, 3, 155);
 }
 
 .btn.secondary {
   background-color: transparent;
   color: #000000;
-  border: 2px solid #2b2a2a;
+  border: 2px solid rgb(20, 2, 109);
 }
 
 .btn.secondary:hover {
-  background-color: #2b2a2a;
+  background-color: #328;
   color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    margin-bottom: 20px;
+  }
 }
