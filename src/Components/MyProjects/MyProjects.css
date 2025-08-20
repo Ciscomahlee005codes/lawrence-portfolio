@@ -1,7 +1,6 @@
 .projects-section {
   padding: 80px 20px;
-  background: #0a0a0a;
-  color: white;
+  background: #005c45;
   text-align: center;
 }
 
@@ -12,7 +11,7 @@
 }
 
 .section-title span {
-  color: rgb(201, 201, 201);
+  color: rgb(250, 249, 249);
 }
 
 .projects-grid {
@@ -22,7 +21,7 @@
 }
 
 .project-card {
-  background: #1a1a1a;
+  background: #dff2eb;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
@@ -46,13 +45,13 @@
 
 .project-content h3 {
   font-size: 20px;
-  color: rgb(255, 255, 255);
+   color: black;
   margin-bottom: 10px;
 }
 
 .project-content p {
   font-size: 14px;
-  color: #ccc;
+   color: black;
   margin-bottom: 15px;
 }
 

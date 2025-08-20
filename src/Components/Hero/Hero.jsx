@@ -14,7 +14,7 @@ const Hero = () => {
 
         {/* Content */}
         <div className="hero-content">
-          <h2 style={{color: "gold"}}><span style={{color: "goldenrod"}}>Hello</span>, My name is Lawrence Amaobi Ajaegbu</h2>
+          <h2 style={{color: "#dffff3ff"}}><span style={{color: "#23e9c1ff"}}>Hello</span>, My name is Lawrence Amaobi Ajaegbu</h2>
 
           {/* Typed Animation */}
           <div className="job">
@@ -43,16 +43,16 @@ const Hero = () => {
           {/* Social Icons */}
           <div className="socials">
             <a href="https://wa.link/u4uvt6" target="_blank" rel="noopener noreferrer">
-              <IoLogoWhatsapp style={{color: "rgba(219, 216, 4, 1)"}}/>
+              <IoLogoWhatsapp style={{color: "#03c59eff"}}/>
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF style={{color: "rgba(219, 216, 4, 1)"}}/>
+              <FaFacebookF style={{color: "#03c59eff"}}/>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin style={{color: "rgba(219, 216, 4, 1)"}}/>
+              <FaLinkedin style={{color: "#03c59eff"}}/>
             </a>
             <a href="mailto:mobilitylawrence@gmail.com">
-              <MdEmail style={{color: "rgba(219, 216, 4, 1)"}}/>
+              <MdEmail style={{color: "#03c59eff"}}/>
             </a>
           </div>
         </div>

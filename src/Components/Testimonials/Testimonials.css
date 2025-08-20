@@ -75,21 +75,21 @@
 
 /* Swiper pagination styling */
 .swiper-pagination-bullet {
-  background: rgb(77, 79, 85);
+  background: #005c45;
   opacity: 0.7;
 }
 .swiper-pagination-bullet-active {
-  background: rgb(12, 10, 0);
+  background: #007d65;
   opacity: 1;
 }
 /* Navigation arrows */
 .swiper-button-prev,
 .swiper-button-next {
-  color: royalblue;
+  color: #005c45;
   transition: color 0.3s ease;
 }
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  color: rgb(128, 127, 127);
+  color: #007d65;
 }

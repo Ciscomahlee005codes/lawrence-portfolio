@@ -1,5 +1,9 @@
 import React from "react";
 import { FaPenNib, FaFeatherAlt, FaLightbulb, FaBookOpen, FaComments, FaGlobe } from "react-icons/fa";
+import { FaHourglassStart, FaHandshake } from "react-icons/fa";
+import { GiMagnifyingGlass } from "react-icons/gi";
+import { FaPuzzlePiece } from "react-icons/fa6";
+import { GiThink } from "react-icons/gi";
 import "./Skills.css";
 
 const Skills = () => {
@@ -11,7 +15,11 @@ const Skills = () => {
     { name: "Communication Skill", level: 92, icon: <FaComments /> },
     { name: "Adaptability", level: 87, icon: <FaGlobe /> },
     { name: "Cultural Insight", level: 83, icon: <FaGlobe /> },
-    { name: "Idea Generation", level: 89, icon: <FaLightbulb /> },
+    { name: "Time Management", level: 89, icon: <FaHourglassStart /> },
+    { name: "Attention to Details", level: 91, icon: <GiMagnifyingGlass /> },
+    { name: "Collaboration", level: 90, icon: <FaHandshake /> },
+    { name: "Problem Solving", level: 95, icon: <FaPuzzlePiece /> },
+    { name: "Critical Thinking", level: 89, icon: <GiThink /> },
   ];
 
   return (

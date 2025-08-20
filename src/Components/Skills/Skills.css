@@ -30,13 +30,13 @@
 .underline .line {
   width: 40px;
   height: 2px;
-  background-color: #0044cc;
+  background-color: #039276;
 }
 
 .underline .dot {
   width: 8px;
   height: 8px;
-  background-color: #0044cc;
+  background-color: #005c45;
   border-radius: 50%;
 }
 
@@ -62,7 +62,7 @@
 
 .skill-card .icon {
   font-size: 30px;
-  color: #328;
+  color: #037457;
   margin-bottom: 10px;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .progress {
-  background: rgb(22, 7, 99);
+  background: #039276;
   height: 100%;
   display: flex;
   align-items: center;
