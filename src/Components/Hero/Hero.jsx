@@ -36,7 +36,7 @@ const Hero = () => {
           {/* Description */}
           <p>
             A versatile and passionate writer crafting words that inspire,
-            inform, and connect — bringing ideas to life with creativity and
+            inform, connect and bring ideas to life with creativity and
             precision.
           </p>
 
