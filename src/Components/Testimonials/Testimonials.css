@@ -93,3 +93,17 @@
 .swiper-button-next:hover {
   color: #007d65;
 }
+/* Star styling */
+.testimonial-stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 20px;
+  color: #ccc; /* Default star color */
+  transition: color 0.3s;
+}
+
+.star.filled {
+  color: gold; /* Golden stars */
+}
